@@ -6,7 +6,7 @@ layout: default
 
 <!-- and, _italic_, or ~~strikethrough~~. --> 
  
-[Link to another page](another-page).
+[My Linkedin](https://www.linkedin.com/in/jianwei-bao/).
 
 There should be whitespace between paragraphs.
 
