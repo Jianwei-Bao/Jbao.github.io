@@ -3,6 +3,7 @@ layout: default
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
+ <!-- and --> 
 
 [Link to another page](another-page).
 
