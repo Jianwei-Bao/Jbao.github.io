@@ -22,14 +22,22 @@ This Dataframe contains 1460 rows and 81 columns. Here is the head of the datafr
 |	5|         60|	      RL|        84.0|   14260|   Pave|	...|     12|   2008|       WD|       Normal	|    250000|
 
 
+
 Let's start with checking missing values in the dataset.
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
 ![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/msno.png?raw=true)
 
+This plot tells us that most of the columns are categorical.
+![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/newplot%20(1).png?raw=true)
+
+The distribution of dependent variable.
+![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/newplot.png?raw=true)
+
+
+![]()
+
+![]()
+![]()
+![]()
+![]()
 
 
