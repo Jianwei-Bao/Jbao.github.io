@@ -53,13 +53,15 @@ end
 
 ###### [](#header-6)Header 6
 
-|Id| MSSubClass| MSZoning| LotFrontage| LotArea|	Street|	SalePrice|
-|:-|:----------|:--------|:-----------|:-------|:------|:---------|
-|	1|         60|	      RL|        65.0|    8450|   Pave|	  	208500|
-|	2|         20|       RL|        80.0|    9600|   Pave|		  181500|
-|	3|         60|       RL|        68.0|   11250|   Pave|		  223500|
-| 4|         70|       RL|        60.0|    9550|   Pave|		  140000|
-|	5|         60|	      RL|        84.0|   14260|   Pave|		  250000|
+|Id| MSSubClass| MSZoning| LotFrontage| LotArea|	Street|	...| MoSold|	YrSold| SaleType|	SaleCondition|	SalePrice|
+|:-|:----------|:--------|:-----------|:-------|:------|:---|:------|:------|:--------|:-------------|:---------|
+|	1|         60|	      RL|        65.0|    8450|   Pave|	...|      2|   2008|	      WD|	       Normal|    208500|
+|	2|         20|       RL|        80.0|    9600|   Pave|	...|      5|   2007|	      WD|	       Normal|    181500|
+|	3|         60|       RL|        68.0|   11250|   Pave|	...|	     9|   2008|       WD|	       Normal|	   223500|
+| 4|         70|       RL|        60.0|    9550|   Pave|	...|      2|   2006|       WD|	      Abnorml|    140000|
+|	5|         60|	      RL|        84.0|   14260|   Pave|	...|     12|   2008|       WD|       Normal	|    250000|
+
+
 
 
 ### There's a horizontal rule below this.
