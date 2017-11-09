@@ -53,12 +53,14 @@ end
 
 ###### [](#header-6)Header 6
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+|Id| MSSubClass| MSZoning| LotFrontage| LotArea|	Street|	SalePrice|
+|:-|:----------|:--------|:-----------|:-------|:------|:---------|
+|	1|         60|	      RL|        65.0|    8450|   Pave|	  	208500|
+|	2|         20|       RL|        80.0|    9600|   Pave|		  181500|
+|	3|         60|       RL|        68.0|   11250|   Pave|		  223500|
+| 4|         70|       RL|        60.0|    9550|   Pave|		  140000|
+|	5|         60|	      RL|        84.0|   14260|   Pave|		  250000|
+
 
 ### There's a horizontal rule below this.
 
