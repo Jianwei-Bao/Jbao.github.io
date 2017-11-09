@@ -4,7 +4,7 @@ layout: default
 
 **Explorotary Data Analysis of House Price Data**
 
-Welcome! This is an exploratory data analysis I performed for a house price prediction project. The data is provided by [Kaggle House Price Prediction Project](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). My source code can be accessed through [Github](https://github.com/Jianwei-Bao/HousePricePrediction).
+Welcome! This is a simple exploratory data analysis I performed for a house price prediction project. The data is provided by [Kaggle House Price Prediction Project](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). My source code can be accessed through [Github](https://github.com/Jianwei-Bao/HousePricePrediction).
 <!-- and, _italic_, or ~~strikethrough~~. --> 
 
  
@@ -24,27 +24,22 @@ This Dataframe contains 1460 rows and 81 columns. Here is the head of the datafr
 |	5|         60|	      RL|        84.0|   14260|   Pave|	...|     12|   2008|       WD|       Normal	|    250000|
 
 
-
+### Missing Values
  
-Let's start with checking missing values in the dataset. There are several columns contain over 90% missing values, we can probably exclude those columns in our model. They are "Alley", "PoolQC", "Fense", and "MiscFeature".
+I started with checking missing values in the dataset. There are several columns contain over 90% missing values, we can probably exclude those columns in our regression model. They are "Alley", "PoolQC", "Fense", and "MiscFeature".
 
 ![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/msno.png?raw=true)
  
+### Categorical Variables
+
+By looking at the number of unique values, we know that most of the variables are categorical, because they have unique values less than 100. A good way to examine the effect of different categories on the sales price is to plot scatter or box plots to see if there is a relationship. Let's check a few of them.
  
-The distribution of dependent variable.
+![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/housestyle.PNG?raw=true) 
+![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/mssub.PNG?raw=true)
+![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/neighborhood.PNG?raw=true)
+![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/yearbuilt.PNG?raw=true)
 
-![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/newplot.png?raw=true)
- 
-  
-The graph below shows that most of the variables are categorical, because they have unique values less than 100. A good way to examine the effect of different categories on the sales price is to plot scatter or box plots to see if there is a relationship. Let's check a few of them.
+### Correlation and Feature Importances
 
-![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/newplot%20(1).png?raw=true)
-
- 
-![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/newplot%20(2).png?raw=true) 
-![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/newplot%20(3).png?raw=true)
-![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/newplot%20(4).png?raw=true)
-![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/newplot%20(5).png?raw=true)
-
-
+I have included the correlation matrix and scatterplot matrix through poltly. Have fun play with the interactive plots :)
 
