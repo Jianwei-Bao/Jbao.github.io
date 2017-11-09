@@ -4,12 +4,14 @@ layout: default
 
 **Explorotary Data Analysis of House Price Data**
 
-
+Welcome! This is an exploratory data analysis I performed for a house price prediction project. The data is provided by [Kaggle House Price Prediction Project](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). My source code can be accessed through [Github](https://github.com/Jianwei-Bao/HousePricePrediction).
 <!-- and, _italic_, or ~~strikethrough~~. --> 
-[Linkedin](https://www.linkedin.com/in/jianwei-bao/) page
+
 
 
 ### [](#header-3)Dataframe
+
+This Dataframe contains 1460 rows and 81 columns. Here is the head of the dataframe.
 
 |Id| MSSubClass| MSZoning| LotFrontage| LotArea|	Street|	...| MoSold|	YrSold| SaleType|	SaleCondition|	SalePrice|
 |:-|:----------|:--------|:-----------|:-------|:------|:---|:------|:------|:--------|:-------------|:---------|
@@ -20,14 +22,14 @@ layout: default
 |	5|         60|	      RL|        84.0|   14260|   Pave|	...|     12|   2008|       WD|       Normal	|    250000|
 
 
-
+Let's start with checking missing values in the dataset.
 ### Small image
 
 ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
 
 ### Large image
 
-![](https://guides.github.com/activities/hello-world/branching.png)
+![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/msno.png?raw=true)
 
 
 
