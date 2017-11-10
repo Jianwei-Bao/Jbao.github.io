@@ -26,8 +26,8 @@ I started with checking missing values in the dataset. There are several columns
 
 ![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/msno.png?raw=true)
  
-### Categorical Variables
-
+### Variables
+The distribution of dependent variable is left skewed.
 ![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/part%202%20graphs/sales%20distribution.PNG?raw=true)
 ![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/part%202%20graphs/uniqs.PNG?raw=true)
 
@@ -40,17 +40,17 @@ By looking at the number of unique values, we know that most of the variables ar
 
 ### Correlation Matrices
 
-Let's see how the numerical variables are correlated with each other and with the dependent variable.
+Let's see how the numerical variables are correlated with each other and with the dependent variable. There are quite a few variables that are strongly correlated with "SalePrice", I ploted the scatter matrices of top three variables.
 ![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/part%202%20graphs/corr.PNG?raw=true)
 ![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/part%202%20graphs/scatter.PNG?raw=true)
 
 ### Feature Importances
-Using default XGB regressor and Random Forest Regressor to identify key features.
+Using default XGB regressor and Random Forest Regressor to identify key features. Categorical features are relabeled with numerical values. Missing values are replaced with mean values so they do not have impacts to the model.
 
 ![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/part%202%20graphs/xgbft.PNG?raw=true)
 ![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/part%202%20graphs/RFft.PNG?raw=true)
 
-The top features selected by both models are somewhat different. This would require us to dig deeper into the data. 
+The top features selected by both models are somewhat different. This would require us to dig deeper into the data. This page will be updated regularly as I make progress.
 
 Well, thank you for reading the post :)
 
