@@ -7,10 +7,6 @@ layout: default
 Welcome! This is a simple exploratory data analysis I performed for a house price prediction project. The data is provided by [Kaggle House Price Prediction Project](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). My source code can be accessed through [Github](https://github.com/Jianwei-Bao/HousePricePrediction).
 <!-- and, _italic_, or ~~strikethrough~~. --> 
 
- 
-  
-  
-
 ### [](#header-3)Dataframe
 
 This Dataframe contains 1460 rows and 81 columns. Here is the head of the dataframe.
@@ -32,14 +28,30 @@ I started with checking missing values in the dataset. There are several columns
  
 ### Categorical Variables
 
-By looking at the number of unique values, we know that most of the variables are categorical, because they have unique values less than 100. A good way to examine the effect of different categories on the sales price is to plot scatter or box plots to see if there is a relationship. Let's check a few of them.
+![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/part%202%20graphs/sales%20distribution.PNG?raw=true)
+![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/part%202%20graphs/uniqs.PNG?raw=true)
+
+By looking at the number of unique values, we know that most of the variables are categorical because they have unique values less than 100. A good way to examine the effect of different categories on the sales price is to plot scatter or box plots to see if there is a relationship. Let's check a few of them.
  
 ![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/housestyle.PNG?raw=true) 
 ![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/mssub.PNG?raw=true)
 ![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/neighborhood.PNG?raw=true)
 ![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/Part%201%20plotly%20graphs/yearbuilt.PNG?raw=true)
 
-### Correlation and Feature Importances
+### Correlation Matrices
 
-I have included the correlation matrix and scatterplot matrix through poltly. Have fun play with the interactive plots :)
+Let's see how the numerical variables are correlated with each other and with the dependent variable.
+![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/part%202%20graphs/corr.PNG?raw=true)
+![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/part%202%20graphs/scatter.PNG?raw=true)
+
+### Feature Importances
+Using default XGB regressor and Random Forest Regressor to identify key features.
+
+![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/part%202%20graphs/xgbft.PNG?raw=true)
+![](https://github.com/Jianwei-Bao/HousePricePrediction/blob/master/part%202%20graphs/RFft.PNG?raw=true)
+
+The top features selected by both models are somewhat different. This would require us to dig deeper into the data. 
+
+Well, thank you for reading the post :)
+
 
